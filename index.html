@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>qoi</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p>simple zero-backend <a href="https://qoiformat.org/">qoi</a> viewer</p>
+    <p>
+      code quality is abhorrent at best and performance gets no faster than
+      asking a discord user to turn on light theme
+    </p>
+    <p>
+      source under 0BSD is at
+      <a href="https://github.com/vivisrc/qoi-image-viewer">
+        https://github.com/vivisrc/qoi-image-viewer
+      </a>
+    </p>
+
+    <form>
+      <input type="file" id="file" accept=".qoi" />
+    </form>
+
+    <canvas id="canvas" width="0" height="0"></canvas>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
